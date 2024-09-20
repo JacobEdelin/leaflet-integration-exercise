@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Leaflet Integration Exercise</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+    <style>
+        #map {
+            height: 750px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Displays U.S. Map-->
+    <h2>Map of US</h2>
+    <div id="map"></div>
+
+    <!-- Displays the three randomly generates coordinates and their respective localities-->
+    <h2>Marker 1: Latitude: <span id="lat1"></span>, Longitude: <span id="long1" </span></h2>
+    <h3>Locality: <span id="locality1"></span></h3>
+
+    <h2>Marker 2: Latitude: <span id="lat2"></span>, Longitude: <span id="long2" </span></h2>
+    <h3>Locality: <span id="locality2"></span></h3>
+
+    <h2>Marker 3: Latitude: <span id="lat3"></span>, Longitude: <span id="long3" </span></h2>
+    <h3>Locality: <span id="locality3"></span></h3>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+        
+    <script src="map-gen.js"></script>
+</body>
